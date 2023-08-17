@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <title>AquaCraft</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg px-4">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#header">
+                        <img src="/img/logo.svg" alt="Logo AquaCraft">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#gallery">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#reviews">Reseñas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><i class="bi bi-menu-button-wide"></i></button> -->
+            </div>
+        </nav>  
+        
+        <!-- <div class="offcanvas offcanvas-end bg-blue-dark " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header text-end">
+                <button type="button" class="btn-close btn-outline-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body text-center">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#gallery">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#reviews">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+    </header>
+    <main>
+
+        <div id="banner">
+            <img src="/img/shape-banner.png" alt="forma de ondas">
+            <div class="text-banner ps-5">
+                <h1 class="mb-4">Construyendo emociones, formando recuerdos</h1>
+                <h4 class="mb-4">Expertos en crear maravillas acuáticas que inspiran y refrescan.</h4>
+                <a href="#gallery" id="btn-banner" class="btn btn-form text-light mt-3 p-4 py-2">Ver nuestro trabajo</a>
+            </div>
+        </div>
+
+        <section id="services" class="container col-10 mb-5">
+
+            <div class="d-flex align-items-center mt-5">
+                <p class="line me-4"></p>
+                <h1>Servicios</h1>
+            </div>
+
+            <article class="service" data-aos="fade-up">
+                <div class="col-6">
+                    <img src="/img/diseño-personalizado.svg" alt="Diseño personalizado">
+                </div>
+                <div class="d-flex flex-column justify-content-center col-6 px-4">
+                    <h3 class="text-blue mb-4 text-center">Diseño personalizado</h3>
+                    <p>Sumérgete en un mundo de posibilidades con nuestro servicio de diseño personalizado de piscinas.
+                        Cada diseño es una obra maestra creada exclusivamente para ti, donde el arte y la funcionalidad
+                        se encuentran en perfecta armonía.
+                    </p>
+                    <i>"Tu piscina, tu visión, nuestro compromiso"</i>
+                </div>
+            </article>
+
+            <article class="service flex-row-reverse" data-aos="fade-up">
+                <div class="col-6">
+                    <img src="/img/construccion-piscinas.svg" alt="Construcción de piscinas">
+                </div>
+                <div class="d-flex flex-column justify-content-center col-6 px-4">
+                    <h3 class="text-blue mb-4 text-center">Construcción de piscinas</h3>
+                    <p>Construyendo sueños desde el primer cimiento.
+                        Nuestro equipo de expertos en construcción de piscinas trabaja incansablemente para convertir
+                        tus ideas en estructuras sólidas y espectaculares.
+                    </p>
+                    <i>"Cada piscina que construimos es un testimonio de calidad, innovación y excelencia. "</i>
+                </div>
+            </article>
+
+            <article class="service" data-aos="fade-up">
+                <div class="col-6">
+                    <img src="/img/remodelacion.svg" alt="Remodelación" class="col-4">
+                </div>
+                <div class="d-flex flex-column justify-content-center col-6 px-4">
+                    <h3 class="text-blue mb-4 text-center">Remodelación</h3>
+                    <p>Renueva, revitaliza, ¡reimagina!Te ofrecemos la oportunidad de dar nueva vida a tu espacio
+                        acuático existente. Desde mejoras funcionales hasta una estética contemporánea, nuestro equipo
+                        trabaja su magia para transformar tu piscina en una maravilla moderna.
+                    </p>
+                    <i>"Cada remodelación es una narración de innovación y rejuvenecimiento, llevando tu oasis a un
+                        nivel superior."</i>
+                </div>
+            </article>
+
+        </section>
+
+        <section id="gallery">
+
+            <div class="d-flex align-items-center container col-10 my-4">
+                <p class="line me-4"></p>
+                <h1>Explora nuestros diseños</h1>
+            </div>
+
+            <div class="carousel-container" data-aos="fade-up">
+                <div class="carousel-track">
+                    <img src="/img/piscinas/pool1.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool2.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool3.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool4.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool5.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool6.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool1.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool2.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool3.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool4.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool5.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool6.png" alt="Imagen piscina" loading="lazy" />
+                </div>
+            </div>
+
+            <div class="carousel-container" data-aos="fade-up">
+                <div class="carousel-track">
+                    <img src="/img/piscinas/pool7.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool8.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool9.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool10.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool11.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool12.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool7.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool8.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool9.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool10.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool11.png" alt="Imagen piscina" loading="lazy" />
+                    <img src="/img/piscinas/pool12.png" alt="Imagen piscina" loading="lazy" />
+                </div>
+            </div>
+
+        </section>
+
+        <img src="/img/aqua.png" alt="Banner aqua" class="banner-aqua" data-aos="fade-up">
+
+        <section id="reviews">
+            <div class="d-flex align-items-center container col-10 my-4">
+                <p class="line me-4"></p>
+                <h1>Lo que nuestros usuarios tienen para decir</h1>
+            </div>
+            <div class="container-fluid col-md-10 col-12 d-flex justify-content-between reviews-container">
+                <div class="card mb-3 mx-2 card-review">
+                    <div class="quote"></div>
+                    <i class="bi bi-quote text-light"></i>
+                    <i class="square"></i>
+                    <div class="px-5 py-3">
+                        <div>
+                            <div class="d-flex text-blue-dark justify-content-end">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="/img/users/user1.png" class="img-fluid rounded-circle me-4"
+                                    alt="imagen usuario">
+                                <h4 class="card-title text-blue-dark">Jhon Doe</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 mx-2 card-review" data-aos="fade-up">
+                    <div class="quote"></div>
+                    <i class="bi bi-quote text-light"></i>
+                    <i class="square"></i>
+                    <div class="px-5 py-3">
+                        <div>
+                            <div class="d-flex text-blue-dark justify-content-end">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="/img/users/user2.png" class="img-fluid rounded-circle me-4"
+                                    alt="imagen usuario">
+                                <h4 class="card-title text-blue-dark">Dana Roa</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card-body">
+
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 8 hours ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 mx-2 card-review" data-aos="fade-up">
+                    <div class="quote"></div>
+                    <i class="bi bi-quote text-light"></i>
+                    <i class="square"></i>
+                    <div class="px-5 py-3">
+                        <div>
+                            <div class="d-flex text-blue-dark justify-content-end">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="/img/users/user3.png" class="img-fluid rounded-circle me-4"
+                                    alt="imagen usuario">
+                                <h4 class="card-title text-blue-dark">Brayan Duarte</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 2 days ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form" data-aos="fade-up">
+            <div class="text-light form-description">
+                <h3 class="mb-4">¡Estamos emocionados de saber más sobre tus proyectos y deseos acuáticos! </h3>
+                <p class="pt-4">Si tienes alguna pregunta, ideas o simplemente quieres hablar sobre cómo podemos
+                    convertir tus sueños de piscinas en realidad, no dudes en ponerte en contacto con nosotros.</p>
+            </div>
+            <form class="form" id="contact-form">
+                <div class="mb-4">
+                    <label for="name" class="form-label text-light">Nombre</label>
+                    <input type="text" class="form-control opacity" id="name" placeholder="Jhon Doe">
+                    <p class="error" id="nameError"></p>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="form-label text-light">Correo electrónico</label>
+                    <input type="email" class="form-control opacity" id="email" placeholder="nombre@ejemplo.com">
+                    <p class="error" id="emailError"></p>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="form-label text-light">Descripción</label>
+                    <textarea class="form-control opacity" id="message" rows="3"
+                        placeholder="Estoy interesado(a) en..."></textarea>
+                    <p class="error" id="messageError"></p>
+                </div>
+                <input type="submit" class="btn btn-form text-light col-4 mx-auto mt-4" value="Enviar">
+            </form>
+            <p class="error" id="error-message"></p>
+        </section>
+
+        <section id="contact-aqua" class="col-12 col-md-10 mx-auto p-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7292.737541214681!2d-74.04514035047394!3d4.701550144593776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1692276946877!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="information-contact">
+                <div class="col-12 col-md-6 text-center">
+                    <i class="bi bi-geo-alt-fill text-blue-dark"></i>
+                    <h3 class="text-blue">Ubicación</h3>
+                    <h4>Oficina Centro de Diseño y Planeación</h4>
+                    <p>Bogotá - Colombia</p>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <i class="bi bi-person-lines-fill text-blue-dark"></i>
+                    <h3 class="text-blue">Contacto</h3>
+                    <h4>Especialista en línea</h4>
+                    <a href="#">WhatsApp: +57 312 345 6789</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="footer-information">
+            <div class="social-media text-center">
+                <img src="/img/logo.svg" alt="Logo AquaCraft">
+                <ul class="social-icon mt-3">
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="text-center col-md-10 col-12 m-auto quote-footer">
+                <p class="text-light">En cada día y gota de esfuerzo, encontramos oportunidades para explorar y nadar hacia
+                    nuestros sueños. Deja que tu pasión sea la brújula que guíe tus olas de éxito</p>
+                <p class="text-light">Descubre la belleza que yace en cada ola de posibilidades.</p>
+            </div>
+            <div class="footer-contact text-light m-auto pt-2">
+                <div>
+                    <p>Teléfono: (601) 123 4567</p>
+                </div>
+                <div>
+                    <p class="m-0">Ubicación: Cra 457 #45-7</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+                <div>
+                    <p>Email: aquacraft.poolssculpt@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="/js//smoothScroll.js"></script>
+    <script type="text/javascript" src="/js/validations.js"></script>
+    <script type="text/javascript" src="/js/sendEmail.js"></script>
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
