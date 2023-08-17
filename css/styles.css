@@ -486,7 +486,7 @@ footer .wave#wave4 {
     }
     
     .text-banner h1{
-        width: 80%;
+        width: 70%;
         font-size: 55px;
     }
     
@@ -653,6 +653,7 @@ footer .wave#wave4 {
     }
 
     @media screen and (min-width:1324px) {
+        
         .reviews-container{
             overflow: unset;
             
